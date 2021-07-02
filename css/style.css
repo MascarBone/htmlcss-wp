@@ -28,10 +28,16 @@ li > a {
     clear: both;
 }
 
+.bkg-greyish {
+    background-color: rgba(44, 44, 44, 0.25);
+    border-radius: 20px;
+    height: 100%;
+}
+
 .layout {
     width: 80%;
     margin: 0 auto;
-    min-width: 1280px;
+    max-width: 1024px;
 }
 
 .top-layout {
@@ -52,9 +58,17 @@ li > a {
 }
 
 .jumbotron {
-    height: 400px;
-    background-color: rgb(211, 202, 122);
+    height: 420px;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    border-radius: 20px;
     margin-bottom: 20px;
+}
+
+.text-box {
+    width: 55%;
+    color: rgb(255, 255, 255);
+
 }
 
 .articles-layout {
