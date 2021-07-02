@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* La width è di dedault 100%, non importa esplicitarla ulteriormente */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.layout {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 1280px;
+}
+
+.top-layout {
+    height: 100px;
+    background-color: rgb(207, 114, 211);
+    margin-top: 20px;
+}
+
+.center-layout {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    height: 400px;
+    background-color: rgb(211, 202, 122);
+    margin-bottom: 20px;
+}
+
+.articles-layout {
+    background-color: rgb(46, 89, 207);
+}
+
+.bot-layout {
+    height: 60px;
+    margin-top: 10px;
+    background-color: rgb(81, 0, 128);
+}
+
+.top-articles,.cnt-articles {
+    background-color: rgb(125, 200, 207);
+}
+
+.top-articles {
+    height: 100px;
+}
+
+.cnt-articles {
+    float: left;
+    width: 15%;
+    height: 400px;
+    margin: 15px 0;    
+}
+
+.cnt-articles:nth-child(2) {
+    width: calc(70% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
