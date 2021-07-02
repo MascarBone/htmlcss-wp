@@ -38,6 +38,7 @@ li > a {
     width: 80%;
     margin: 0 auto;
     max-width: 1024px;
+    min-width: 860px;
 }
 
 .top-layout {
@@ -69,7 +70,8 @@ li > a {
 .text-box-jumbotron {
     width: 55%;
     color: rgb(255, 255, 255);
-
+    /* Tentativo di posizionamento del testo */
+    padding: 240px 0 0 40px;
 }
 
 /* .articles-layout {
