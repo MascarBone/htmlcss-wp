@@ -4,7 +4,23 @@
     box-sizing: border-box;
 }
 
-/* La width è di dedault 100%, non importa esplicitarla ulteriormente */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-right: 8px;
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(144, 144, 144);
+}
 
 .clearfix::after {
     content: "";
@@ -19,9 +35,16 @@
 }
 
 .top-layout {
-    height: 100px;
-    background-color: rgb(207, 114, 211);
+    /* height: 100px; 
+    L'altezza la prende dall'immagine, e con il clearfix sistemo il contenitore*/
     margin-top: 20px;
+}
+
+.top-layout > img {
+    height: 80px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    border-right: 1px solid  rgb(218, 218, 218);
 }
 
 .center-layout {
